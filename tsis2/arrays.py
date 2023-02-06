@@ -1,3 +1,3 @@
 cars = ["Ford", "Volvo", "BMW"]
-x = len(cars)
-print(x)
+for x in cars:
+  print(x)
