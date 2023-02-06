@@ -1,4 +1,3 @@
 cars = ["Ford", "Volvo", "BMW"]
-cars[0] = "Toyota"
-x = cars[0]
+x = len(cars)
 print(x)
