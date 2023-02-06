@@ -1,3 +1,3 @@
-thisset = {"apple", "banana", "cherry", True, 1, 2}
+thisset = {"apple", "banana", "cherry"}
 
-print(thisset)
+print(len(thisset))
