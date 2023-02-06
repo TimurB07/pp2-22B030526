@@ -1,2 +1,3 @@
 cars = ["Ford", "Volvo", "BMW"]
-print(cars)
+x = cars[0]
+print(x)
