@@ -1,2 +1,2 @@
-x = memoryview(bytes(5))
+x = None
 print(type(x))
