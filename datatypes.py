@@ -1,2 +1,2 @@
-x = 20
+x = 20.5
 print(type(x))
