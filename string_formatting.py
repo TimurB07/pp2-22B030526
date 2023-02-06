@@ -1,5 +1,5 @@
+quantity = 3
+itemno = 567
 price = 49
-itemno = 3
-count = 14
-txt = "The price is {:.2f} dollars, ID is {}, there are {} pieces"
-print(txt.format(price, itemno, count))
+myorder = "I want {} pieces of item number {} for {:.2f} dollars."
+print(myorder.format(quantity, itemno, price))
