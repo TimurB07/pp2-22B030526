@@ -1,2 +1,2 @@
-x = {"apple", "banana", "cherry"}
+x = frozenset({"apple", "banana", "cherry"})
 print(type(x))
