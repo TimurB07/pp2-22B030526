@@ -1,2 +1,2 @@
-x = ("apple", "banana", "cherry")
+x = range(6)
 print(type(x))
