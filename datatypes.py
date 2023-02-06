@@ -1,2 +1,2 @@
-x = 20.5
+x = 1j
 print(type(x))
