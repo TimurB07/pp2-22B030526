@@ -1,2 +1,3 @@
-thisset = {"apple", "banana", "cherry"}
+thisset = {"apple", "banana", "cherry", "apple"}
+
 print(thisset)
