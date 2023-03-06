@@ -1,4 +1,5 @@
 a = int(input())
+b = int(input())
 h = int(input())
-area = a * h
+area = (a + b) * h / 2
 print(area)
