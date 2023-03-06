@@ -1,4 +1,5 @@
 import math
-dgr = float(input())
-rd = math.radians(dgr)
-print("{} = {} ".format(dgr, rd))
+n = int(input())
+s = float(input())
+area = (n * s ** 2) / (4 * math.tan(math.pi / n))
+print(int(area))
