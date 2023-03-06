@@ -1,8 +1,8 @@
-def div_gen(n):
-    for i in range(n+1):
-        if i % 3 == 0 and i % 4 == 0:
-            yield i
-n = int(input())
-numb = div_gen(n)
-for number in numb:
-    print(number)
+def squares_gen(a, b):
+    for i in range(a, b+1):
+        yield i ** 2
+a = int(input())
+b = int(input())
+sq = squares_gen(a, b)
+for square in sq:
+    print(square)
