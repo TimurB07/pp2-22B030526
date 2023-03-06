@@ -1,8 +1,7 @@
-def squares_gen(a, b):
-    for i in range(a, b+1):
-        yield i ** 2
-a = int(input())
-b = int(input())
-sq = squares_gen(a, b)
-for square in sq:
-    print(square)
+def count_gen(n):
+    for i in range(n, -1, -1):
+        yield i
+n = int(input())
+cnt = count_gen(n)
+for i in cnt:
+    print(i)
