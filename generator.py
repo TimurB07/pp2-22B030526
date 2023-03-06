@@ -1,9 +1,8 @@
-def even_gen(n):
+def div_gen(n):
     for i in range(n+1):
-        if i % 2 == 0:
+        if i % 3 == 0 and i % 4 == 0:
             yield i
-
-n = int(input(" "))
-even = even_gen(n)
-result = ", ".join(str(number) for number in even)
-print("{}:{}".format(n, result))
+n = int(input())
+numb = div_gen(n)
+for number in numb:
+    print(number)
