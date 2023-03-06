@@ -1,4 +1,7 @@
 import datetime
-x=datetime.date.today()
-result = x - datetime.timedelta(days=5)
-print(result)
+td = datetime.date.today()
+print(td)
+yd=td - datetime.timedelta(days=1)
+print(yd)
+tm=td+datetime.timedelta(days=1)
+print(tm)
