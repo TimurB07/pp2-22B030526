@@ -1,3 +1,3 @@
 import re
 str=input()
-print(re.findall('[A-Z]', str))
+print(re.sub('([A-Z][a-z]+)',r' \1', str))
